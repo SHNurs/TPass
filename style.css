@@ -1,0 +1,883 @@
+body{
+    /* width: 1440px; */
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+.text--light{
+    color: white;
+}
+
+
+/* Header */
+.bg-color{
+    background: #F4F5F6;
+}
+
+.header{
+    height: 720px;
+    background: #F4F5F6;
+}
+
+.download{ 
+    width: 122px;
+    height: 50px;
+    background: #0F2336;
+    border: 1px solid #0F2336;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.header__content{
+    position: relative;
+}
+
+.header__content-text{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 76px;
+    margin: 6rem 0;
+    /* identical to box height, or 138% */
+    
+    letter-spacing: 1.11px;
+    color: #0F2336;
+    z-index: 1;
+}
+
+p:first-child{
+    color: #00CCCC;
+}
+
+.header__content-text a{
+    width: 208px;
+    height: 60px;
+    background: #00CCCC;
+    border: 1px solid #00CCCC;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
+    border-radius: 14px;
+    margin-top: 3.3rem;
+}
+
+.header__content-text a > span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    margin-right: 0.3rem;
+    /* identical to box height, or 120% */
+
+
+    color: #0F2336;
+}
+
+.header__photo{
+    position: absolute;
+    margin: 10.1rem 0 0 -17rem;
+    z-index: 0;
+}
+
+/* Section 2 */
+
+.section-2{
+    height: 409px;
+    margin-bottom: 2rem;
+}
+
+.section-2__item{
+    padding-top: 2rem;
+}
+.section2__icon{
+    position: relative;
+}
+
+.circle{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: linear-gradient(160.47deg, rgba(0, 201, 201, 0.147) 15.15%, rgba(0, 201, 201, 0.699) 93.19%);
+    opacity: 0.2;
+}
+
+.section2__icon img{
+    margin: 1.5rem;
+}
+
+.section2__subtitle{
+    font-size: 25px;
+    line-height: 32.5px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #0F2336;
+    margin: 2rem 0 0.3rem 0;
+}
+
+.common-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #576D81;
+}
+
+.section-2__lemonade{
+    margin-top: -1rem;
+}
+
+.section-2__lemonade img{
+    margin-left: 1.9rem;
+}
+
+/* Section 3 */
+.work__bg{
+    height: 540px;
+    background: #F4F5F6;
+    border-radius: 50px;
+}
+
+.work{
+    margin-top: -35.5rem;
+    margin-bottom: 3rem;
+}
+
+.work img{
+    margin-top: 0.7rem;
+}
+
+.work h5{
+    font-size: 18px;
+    line-height: 18px;
+    color: #576D81;
+    margin: -5rem 0 0 0;
+}
+
+.work h4{
+    width: 250px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #0F2336;
+    margin: 1.2rem 0 1.2rem 0;
+}
+
+.work p{
+    width: 414px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #576D81;
+}
+
+.work__content{
+    margin: 0 0 0 -2rem;
+}
+
+/* Section 4 */
+
+.section4{
+    height: 527px;
+    background: #F4F5F6;
+    border-radius: 0px;
+    margin-top: 7rem;
+}
+
+.section4__img img{
+    width: 595px;
+    height: 627px;
+    margin-top: -6.3rem;
+    margin-left: -5rem;
+}
+
+.cards{
+    width: 455px;
+    height: 179px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+    border-radius: 8px;
+}
+
+.cards h5{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #0F2336;
+    margin-bottom: 1rem;
+}
+
+.cards p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #576D81;
+}
+
+.cards img{
+    margin-top: -1rem;
+}
+
+.section4__card1{
+    margin-top: -2.3rem;
+}
+
+.section4__card2{
+    margin: 2.3rem 0 4.6rem 1.2rem;
+}
+
+.section4__card3{
+    margin-top: -2.5rem;
+}
+
+/* Section 5 */
+.gifts__bg{
+    height: 540px;
+    background: #F4F5F6;
+    border-radius: 50px;
+    margin-top: 12rem;
+}
+
+.gifts{
+    margin-top: -35.5rem;
+    margin-bottom: 3rem;
+}
+
+.gifts img{
+    width: 547px;
+    height: 640px;
+    margin-top: -1.3rem;
+}
+
+.gifts h5{
+    font-size: 18px;
+    line-height: 18px;
+    color: #576D81;
+    margin: -5rem 0 0 0;
+}
+
+.gifts h4{
+    width: 400px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+    color: #0F2336;
+    margin: 1.2rem 0 1.2rem 0;
+}
+
+/* Link Section-6 */
+
+.link{
+    margin: 7rem;
+}
+.link__title{
+    width: 519px;
+    height: 120px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #0F2336;
+}
+
+.link__email{
+    width: 570px;
+    height: 55px;
+    margin-top: 1rem;
+}
+
+.link__email input{
+    width: 394px;
+    height: 55px;
+
+    background: #F0F0F2;
+    border: 1px solid #F0F0F2;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.link__email button{
+    width: 156px;
+    background: #00CCCC;
+    border: 1px solid #00CCCC;
+    box-sizing: border-box;
+    border-radius: 14px;
+    margin-left: 10px;
+
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #0F2336;
+}
+
+.link__apps{
+    width: 380px;
+    margin: 1rem 0 0 -12rem;
+}
+
+/* Footer */
+
+.footer{
+    height: 297px;
+    background: #0F2336;
+}
+
+.footer h5{
+    height: 21px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #00CCCC;
+}
+
+.footer a{
+    height: 21px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.39px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer__content{
+    margin: -11rem 0 0 0;
+}
+.footer__leaf{
+    margin: -4rem 0 0 -10.3rem;
+}
+
+.footer__leaves{
+    margin: -9.6rem 0 0 70rem;
+}
+
+@media (max-width:1425px){
+    .footer__leaves{
+        margin: -9.6rem 0 0 67.1rem;
+    }
+}
+
+@media (max-width:1355px) {
+    .footer__leaf{
+        margin-left: -7rem;
+    }
+
+    .footer__leaves{
+        margin: -9.6rem 0 0 66.5rem;
+    }
+}
+@media (max-width: 1278px){
+    .header{
+        height: 585px;
+    }
+    .header__content-text{
+        font-size: 40px;
+        line-height: 50px;
+        margin: 8rem 0;
+        letter-spacing: 1.11px;
+    }
+    .header__photo{
+        width: 600px;
+        margin: 10.1rem 0 0 -15rem;
+    }
+
+    .section-2__lemonade{
+        margin-top: 0.3rem;
+        margin-bottom: -0.7rem;
+    }
+
+    .work__content{
+        margin: 0;
+    }
+    .section4__img img{
+        width: 500px;
+        margin-left: 0rem;
+    }
+
+    .gifts__bg{
+        height: 340px;
+    }
+    
+    .gifts{
+        margin-top: -16.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    .gifts img{
+        width: 280px;
+        height: 340px;
+        margin-left: 3rem;
+        margin-top: -5rem;
+    }
+
+
+    .footer__leaf{
+        margin-left: -5rem;
+    }
+
+    .footer__leaves{
+        margin: -9.6rem 0 0 64.7rem;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .footer__leaf{
+        margin-left: -10rem;
+    }
+
+    .footer__leaves{
+        margin: -9.6rem 0 0 55.5rem;
+    }
+}
+
+@media (max-width: 1100px){
+    .footer__leaf{
+        margin-left: -7rem;
+    }
+
+
+    .footer__leaves{
+        margin: -9.6rem 0 0 50.5rem;
+    }
+}
+
+@media (max-width: 990px){
+    .header{
+        height: 759px;
+    }
+    .header__content-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header__photo{
+        width: 600px;
+        margin: -11.5rem 0 0 7rem;
+    }
+
+    .work__bg{
+        height: 25rem;
+    }
+    .work img{
+        width: 27rem;
+        margin-top: 9rem;
+    }
+
+    .work__content{
+        margin-top: 11rem;
+    }
+
+    .work p{
+        width: 19rem;
+    }
+
+    .section4__img img{
+        display: none;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 7rem;
+    }
+
+    .footer__leaf,
+    .footer__leaves{
+        display: none;
+    }
+
+    .footer__content{
+        margin-top: 2rem;
+        padding-top: 5rem;
+    }
+}
+
+@media (max-width: 770px){
+    .header__content-text{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .header__photo{
+        width: 500px;
+        margin: -7.1rem 0 0 7rem;
+    }
+
+    .work__bg{
+        height: 18rem;
+    }
+    .work img{
+        width: 20rem;
+        margin-top: 16rem;
+    }
+
+    .work__content{
+        margin-top: 19rem;
+    }
+
+    .work p{
+        width: 14rem;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .work h5{
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .work h4{
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 2rem;
+    }
+    
+    .gifts img{
+        margin-left: -2rem;
+    }
+
+    .gifts h4{
+        width: 15rem;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .gifts h5{
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .gifts p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .footer__contacts{
+        margin-left: -8rem;
+    }
+}
+
+@media (max-width: 720px){
+    .header__photo{
+        margin: -7.1rem 0 0 1rem;
+    }    
+    
+    .work__bg{
+        height: 18rem;
+        margin-top: 4rem;
+    }
+
+    .work__content{
+        margin-top: 21rem;
+    }
+}
+
+@media (max-width: 575px){
+    .work__bg{
+        height: 17rem;
+        margin-top: 27rem;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 2.5rem;
+    }
+
+    .link__title{
+        width: 419px;
+        height: 120px;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .link__email{
+        width: 470px;
+        height: 55px;
+        margin: 0.5rem 0;
+    }
+    
+    .link__email input{
+        width: 294px;
+    }
+    
+    .link__email button{
+        width: 156px;
+        margin: 0.5rem 0 0 -0.1rem;
+    }
+    
+    .link__apps{
+        width: 294px;
+        margin: 4rem 0 0 2rem;
+    }
+
+    .link__apps img{
+        width: 140px;
+    }
+
+    .footer{
+        height: 460px;
+    }
+    .footer__contacts h5{
+        margin-top: 1rem;
+    }
+    .footer__contacts{
+        margin-top: 1rem;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 540px){
+    .header{
+        height: 628px;
+    }
+
+    .header__content-text{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 6rem 0;
+    }
+
+    .header__photo{
+        width: 400px;
+        margin: -7rem 0 0 3rem;
+    }
+
+    .work__bg{
+        height: 17rem;
+    }
+    .work img{
+        width: 18rem;
+        margin-top: 18rem;
+    }
+
+    .work__content{
+        margin-top: 22rem;
+        margin-left: -1rem;
+    }
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 1.5rem;
+    }
+
+    .cards img{
+        margin-top: -1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .gifts img{
+        margin-left: -3rem;
+    }
+
+    .gifts h4{
+        width: 10rem;
+
+    }
+}
+
+@media (max-width: 515px){
+
+    .cards{
+        width: 400px;
+    }
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 465px){
+    .header__photo{
+        width: 400px;
+        margin: -7rem 0 0 1rem;
+    }
+
+    .work__bg{
+        height: 17rem;
+    }
+
+    .work img{
+        display: none;
+    }
+
+    .work__content{
+        margin-top: 25rem;
+        margin-left: -8rem;
+    }
+
+    .cards{
+        width: 350px;
+        height: 190px;
+    }
+    .section4__card1,
+    .section4__card3{
+        margin-left: 2rem;
+    }
+
+    .section4__card2{
+        margin: 1rem 0 3.5rem 2rem;
+    }
+
+    .gifts img{
+        display: none;
+    }
+
+    .gifts__bg{
+        height: 18rem;
+    }
+    .gifts h4,
+    .gifts h5,
+    .gifts p{
+        width: 14rem;
+        margin-left: 3rem;
+        margin-top: 0rem;
+    }
+
+    .link__title{
+        width: 319px;
+        line-height: 40px;
+    }
+
+    .link__email{
+        width: 270px;
+        height: 55px;
+        margin-top: 0.5rem;
+    }
+    
+    .link__email input{
+        width: 194px;
+    }
+    
+    .link__email button{
+        width: 75px;
+        font-size: 1rem;
+        margin: 0.5rem 0 0 -0.1rem;
+    }
+    
+    .link__apps{
+        width: 294px;
+        margin: 4rem 0 0 0.7rem;
+    }
+
+}
+
+@media (max-width: 435px){
+    .header__photo{
+        width: 350px;
+        margin-top: -4.7rem;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 0.7rem;
+    }
+}
+
+@media (max-width: 375px){
+    .header{
+        height: 523px;
+    }
+
+    .header__content-text{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .header__content-text a{
+        width: 10rem;
+        height: 40px;
+        margin-top: 2rem;
+    }
+
+    .header__content-text a > span{
+        font-size: 1rem;
+    }
+
+    .header__content-text a > img{
+        display: none;
+    }
+
+    .header__photo{
+        width: 300px;
+        margin-top: -5rem;
+    }
+
+    .work__bg{
+        margin-top: 28rem;
+    }
+
+    .cards{
+        width: 300px;
+        height: 200px;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 1.2rem;
+    }
+}
+
+@media (max-width: 330px){
+    .header__photo{
+        margin-left: -0.2rem;
+    }
+
+    .work__bg{
+        margin-top: 35rem;
+    }
+    .section4{
+        height: 670px;
+    }
+
+    .cards{
+        width: 250px;
+        height: 240px;
+    }
+
+    .section4__card1,
+    .section4__card2,
+    .section4__card3{
+        margin-left: 1.3rem;
+    }
+
+    .gifts__bg{
+        margin-top: 7rem;
+    }
+    .gifts h4,
+    .gifts h5,
+    .gifts p{
+        margin-left: 1rem;
+    }
+
+    .link__title{
+        width: 219px;
+        margin-bottom: 3rem;
+    }
+
+    .link__email{
+        width: 220px;
+    }
+    
+    .link__apps{
+        width: 224px;
+        margin: 4rem 0 0 5rem;
+    }
+
+    .link__apps img{
+        width: 140px;
+    }
+}
